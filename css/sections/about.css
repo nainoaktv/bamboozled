@@ -56,4 +56,27 @@
 
   background: var(--secondary-color);
   border-radius: 32px 0 0 32px;
+  outline: 0;
+
+  color: #fff;
+  font-family: var(--plus-jakarta-sans);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  cursor: pointer;
+}
+
+.about-us__button img {
+  object-fit: contain;
+  margin-left: 32px;
+}
+
+.about-us__content {
+  padding: 64px;
+  
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
