@@ -27,6 +27,7 @@
   padding: 32px 64px;
 }
 
+/* Trending List Items */
 .trending__list {
   list-style: none;
 
@@ -67,6 +68,7 @@
   color: var(--secondary-color);
 }
 
+/* Trending Sushi + Drink Image */
 .trending__image {
   flex: 1;
 
@@ -91,4 +93,49 @@
   width: 254px;
   height: 260px;
   object-fit: contain;
+}
+
+/* Discover Button */
+.trending__discover
+
+/* Arrows */
+.trending__arrow {
+  position: absolute;
+  z-index: 1;
+}
+
+.trending__arrow img {
+  object-fit: contain;
+}
+
+.trending__arrow-left {
+  left: -2.5px;
+  top: 12%;
+}
+
+.trending__arrow-left img,
+.trending__arrow-top img {
+  width: auto;
+  height: 100%;
+}
+
+.trending__arrow-top {
+  top: -10.5px;
+  left: 12%;
+}
+
+.trending__arrow-bottom {
+  bottom: -6.5px;
+  right: 12%;
+}
+
+.trending__arrow-bottom img,
+.trending__arrow-right img {
+  width: 100%;
+  height: auto;
+}
+
+.trending__arrow-right {
+  right: -2.5px;
+  bottom: 12%;
 }
