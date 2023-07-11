@@ -33,3 +33,36 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.trending__list li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+
+  min-width: 210px;
+}
+
+.trending__icon {
+  width: 24px;
+  height: 24px;
+
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+
+.trending__icon img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.trending__list p {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+
+  color: var(--secondary-color);
+}
